@@ -687,6 +687,11 @@ margin-left: 10px;
     margin-bottom: 110px;
 }
 
+.footer .item a{
+    text-decoration: none;
+    color: #292F36;
+}
+
 .footer_social{
     display: flex;
 }
