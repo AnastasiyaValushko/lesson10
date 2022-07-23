@@ -1,0 +1,418 @@
+@media (min-width:1550px){
+    .promo {
+        background-position: bottom;
+    }
+}
+
+@media (max-width:1200px){
+
+    .promo_wrapper{
+        width: 90%;
+    }
+
+    .estimate_img img {
+        width: 450px;
+        height: 600px;
+    }
+
+    .estimate_text {
+        margin-right: 50px;
+    }
+
+    .estimate_text h3 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .estimate_text p{
+        font-size: 20px;
+    }
+
+    .reviews_item_pad {
+        padding: 10px;
+    }
+
+    .reviews_item_pad p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .blogs_block p {
+        margin: 0 100px;
+    }
+
+    .blogs_item {
+        width: 200px;
+    }
+
+    .blogs_position p {
+        left: -40%;
+    }
+
+    .blogs_item h3 {
+        font-size: 22px;
+    }
+
+    .blogs_item p {
+        font-size: 16px;
+    }
+
+    .blogs_title p{
+        margin: 0;
+    }
+
+    .blogs_title{
+        margin-bottom: 10px;
+    }
+
+    .footer_pages {
+        grid-template-columns: 250px 100px 100px 250px;
+    }
+
+    .item {
+        font-size: 18px;
+    }
+    .project_list{
+    margin-left: 50px;
+    }
+
+    .project_item img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .achievements_list {
+        margin: 0px 10px;
+    }
+}    
+
+@media (max-width:880px){
+    .nav_toggle{
+        display: inline-block;
+    }
+
+    .header .nav ul{
+       display: none; 
+    }
+
+    #nav_toggle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        opacity: .9;
+
+        padding: 5%;
+        min-width: 200px;
+        height: 100%;
+
+    }
+
+    .nav li{
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .header .nav a{
+        color: #F4F0EC;
+    }
+
+    .header .nav a:hover{
+        color:#CDA274;
+    }
+}    
+
+
+
+@media (max-width:820px){
+
+    .services_item {
+        margin: 0 10px;
+    }
+
+    .estimate_img img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .estimate_text h3{
+        font-size: 29px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+
+    .reviews_wrap {
+        display: block;
+        text-align: center;
+    }
+
+    .reviews_wrap img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .reviews_wrap .title {
+        margin-left: 0px;
+    }
+
+    .reviews_item_pad p {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .title .caption {
+        font-size: 15px;
+    }
+
+    .brands_list img{
+        width: 85%;
+    }
+
+    .project p {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .project_item img {
+        width: 95%;
+    }
+
+    .project_title_circle a {
+        margin-right: 20px;
+    }
+
+    .project_title a {
+        font-size: 18px;
+    }
+    .project_title .caption {
+        font-size: 16px;
+    }
+
+    .achievements_list {
+        margin: 0 52px;
+    }
+
+    .blogs_item p {
+        font-size: 13px;
+    }
+
+    .blogs_position p {
+        left: -66%;
+    }
+
+    .blogs_position p {
+        width: 116px;
+        height: 35px;
+        top: 65%;
+    }
+
+    .blogs_item h3 {
+        font-size: 19px;
+    }
+
+    .footer_pages {
+        grid-template-columns: 203px 114px 118px 199px;
+        grid-template-rows: auto;
+    }
+
+    .footer_bot {
+        font-size: 17px;
+    }
+
+}
+
+
+@media (max-width:650px){
+
+    .promo_content h3 {
+        font-size: 40px;
+        line-height: 53px;
+    }
+
+    .services_list {
+        display: block;
+        margin: 0;
+    }    
+
+    .view_button {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    
+    .estimate_text {
+        margin-right: 0px;
+    }
+
+    .free_estimate .estimate {
+        display: block;
+        text-align: center;
+
+    }
+
+    .estimate_img img {
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .reviews_content h3 {
+        font-size: 29px;
+    }
+
+    .reviews_item {
+        height: 210px;
+        margin: 10px 10px;
+    }
+    .reviews .container {
+        height: 865px;
+    }
+
+    .reviews_list {
+        display: block;
+    }
+
+    .brands {
+        margin-top: 230px;
+    }
+
+    .project_item {
+        margin-bottom: 20px;
+    }
+
+    .project p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .project_item:nth-child(1), .project_item:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .project_list_item1, .project_list_item2 {
+        display: block;
+    }
+
+    .project_list {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .project_item img {
+        width: 100%;
+    }
+    .project_list_item1 {
+        margin-bottom: 0;
+    }
+
+    .project_title_circle {
+        text-align: left;
+    }
+
+    .achievements_item {
+        padding: 20px 10px;
+    }
+
+    .achievements_item h3 {
+        font-size: 60px;
+    }
+
+    .achievements_list {
+        justify-content: center;
+        
+    }
+
+    .blogs_block p {
+        margin: 0;
+    }
+
+    .blogs_list1, .blogs_list2 {
+        display: block;
+    }
+
+    .blogs_item:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .blogs_item {
+        width: auto;
+    }
+
+    .blogs_position p {
+        left: 5%;
+        top: 77%;
+    }
+
+    .contact h3 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .item {
+        font-size: 11px;
+    }
+
+    .footer_pages {
+        grid-template-columns: 139px 74px 79px 100px;
+    }
+   
+    .footer_top .item img{
+        width: 40%;
+    }
+
+    .footer_bot {
+        margin: 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:412px){
+
+    .achievements {
+        height: 750px;
+    }
+    .achievements_list {
+        display: block;
+    }
+
+    .project_title_circle {
+        text-align: left;
+    }
+
+    .achievements_item:not(:last-child) {
+        border-right: 0;
+        border-bottom: 2px solid #CDA274;
+    }
+
+    .footer_pages{
+        display: none;
+    }
+
+    .footer_pages2{
+        display: inline-block;
+        margin: -50px 50px;
+    }
+
+    .contact .button_order {
+        width: 175px;
+        font-size: 14px;
+    }
+
+    .footer_bot {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:320px){
+    .estimate_img img {
+        width: auto;
+        height: 300px;
+    }
+
+}
